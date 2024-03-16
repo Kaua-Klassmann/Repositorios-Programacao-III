@@ -1,0 +1,1 @@
+import{_ as c,c as e,o as s,p as t,d as a,a as d}from"./index-DbZAyHKK.js";const _={},r=o=>(t("data-v-7302cc36"),o=o(),a(),o),n={class:"text-bg-dark d-grid"},p=r(()=>d("h1",null,"Então... Eu não leio livros 😅",-1)),i=[p];function l(o,h){return s(),e("body",n,i)}const u=c(_,[["render",l],["__scopeId","data-v-7302cc36"]]);export{u as default};
