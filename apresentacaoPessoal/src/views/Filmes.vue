@@ -26,12 +26,12 @@ const filmes = ref([
 </script>
 
 <template>
-  <body class="row text-bg-dark pt-5">
-    <main class="col-md-4 p-4 pt-0 mt-md-0 mt-3" v-for="filme in filmes" :key="filme">
-      <h5 class="text-center py-4">{{ filme.nome }}</h5>
+  <ul class="row text-bg-dark pt-5">
+    <li class="col-md-4 p-4 pb-5 pt-0 mt-md-0 mt-3" v-for="filme in filmes" :key="filme">
+      <h5 class="text-center pb-4">{{ filme.nome }}</h5>
       <img :src="filme.src" :alt="`Imagem ${filme.nome}`" class="img-fluid" />
-    </main>
-  </body>
+    </li>
+  </ul>
 </template>
 
 <style scoped>
@@ -39,7 +39,8 @@ const filmes = ref([
   margin: 0;
 }
 
-body {
+ul {
   min-height: 94vh;
+  list-style: none;
 }
 </style>
