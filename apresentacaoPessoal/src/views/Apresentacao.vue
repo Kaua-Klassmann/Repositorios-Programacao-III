@@ -29,7 +29,7 @@ fraco em comparação com o resto (mas não por muito tempo KSKS) 😁.`
 const projetos = ref([
   {
     nome: 'EDAS',
-    imagem: '../src/assets/edas.jpeg',
+    imagem: '../src/assets/edas.webp',
     texto:
       'Site para cadastro de provas para organização de alunos do IFRS, feito com VueJs, Bootstrap, NodeJs, Express e Postgresql.',
     site: 'https://edasapp.onrender.com',
@@ -46,7 +46,7 @@ const projetos = ref([
   },
   {
     nome: 'Wordle',
-    imagem: '../src/assets/wordle.jpeg',
+    imagem: '../src/assets/wordle.webp',
     texto: 'Cópia do jogo Wordle, feito com VueJS e Bootstrap.',
     site: 'https://wordle-klassmann.netlify.app',
     github: [
@@ -67,8 +67,8 @@ const projetos = ref([
       </div>
       <img
         class="col-md-5 order-1 order-md-2 rounded-circle p-4"
-        src="../assets/myImg.png"
-        alt=""
+        src="../assets/myImg.webp"
+        alt="Minha foto"
       />
     </header>
     <main class="py-4">
@@ -79,7 +79,7 @@ const projetos = ref([
       <div class="row">
         <div class="col-md-6 p-4" v-for="projeto in projetos" :key="projeto">
           <div class="card">
-            <img class="card-img-top" :src="projeto.imagem" />
+            <img class="card-img-top" :src="projeto.imagem" alt="Imagem do card" />
             <div class="card-body">
               <h5 class="card-title">{{ projeto.nome }}</h5>
               <p class="card-text d-flex align-items-center">{{ projeto.texto }}</p>

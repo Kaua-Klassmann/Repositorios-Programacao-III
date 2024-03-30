@@ -4,23 +4,23 @@ import { ref } from 'vue'
 const filmes = ref([
   {
     nome: 'Haikyuu',
-    src: '../src/assets/haikyuu.jpg'
+    src: '../src/assets/haikyuu.webp'
   },
   {
     nome: 'Blue Lock',
-    src: '../src/assets/bluelock.jpg'
+    src: '../src/assets/bluelock.webp'
   },
   {
     nome: 'One Piece',
-    src: '../src/assets/onepiece.jpg'
+    src: '../src/assets/onepiece.webp'
   },
   {
     nome: 'Spy x Family',
-    src: '../src/assets/spyxfamily.jpg'
+    src: '../src/assets/spyxfamily.webp'
   },
   {
     nome: 'Class of the Elite',
-    src: '../src/assets/classoftheelite.jpg'
+    src: '../src/assets/classoftheelite.webp'
   }
 ])
 </script>

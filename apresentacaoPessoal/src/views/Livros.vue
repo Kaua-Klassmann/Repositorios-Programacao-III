@@ -4,23 +4,23 @@ import { ref } from 'vue'
 const livros = ref([
   {
     nome: 'Diário de um Banana 1',
-    src: '../src/assets/banana1.jpg'
+    src: '../src/assets/banana1.webp'
   },
   {
     nome: 'Diário de um Banana 2',
-    src: '../src/assets/banana2.jpg'
+    src: '../src/assets/banana2.webp'
   },
   {
     nome: 'Diário de um Banana 3',
-    src: '../src/assets/banana3.jpg'
+    src: '../src/assets/banana3.webp'
   },
   {
     nome: 'Diário de um Banana 4',
-    src: '../src/assets/banana4.jpg'
+    src: '../src/assets/banana4.webp'
   },
   {
     nome: 'Diário de um Banana 5',
-    src: '../src/assets/banana5.jpg'
+    src: '../src/assets/banana5.webp'
   }
 ])
 </script>
